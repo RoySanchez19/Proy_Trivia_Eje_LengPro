@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Preguntas y Evaluación</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="icon" href="img5.ico">
+    </head>
+    <body>
+        <div class="cuadro1">
+            <h1>LENGUAJES ORIENTADOS A LA WEB</h1>
+        </div>
+        <div class="cuadro2">
+            <div class="preguntas">
+                <form action="">
+                    <table>
+                        <caption><h3>PREGUNTAS DE DESARROLLO Y PROGRAMACIÓN WEB</h3></caption>
+                        <tr>
+                            <td colspan="3">1-¿Que lenguaje se utiliza para el Diseño Web?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta1" id="num1"> HTML, CSS</td>
+                            <td><input type="radio" name="respuesta1" id="num2"> HTML, JS</td>
+                            <td><input type="radio" name="respuesta1" id="num3"> HTML, CSS, JS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">2-¿Que lenguaje se utiliza para el Desarrollo Web?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta2" id="num4"> HTML, CSS</td>
+                            <td><input type="radio" name="respuesta2" id="num5"> HTML, JS</td>
+                            <td><input type="radio" name="respuesta2" id="num6"> HTML, CSS, JS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">3-¿Que lenguaje utiliza la propiedad charset='utf-8'?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta3" id="num7"> HTML</td>
+                            <td><input type="radio" name="respuesta3" id="num8"> JS</td>
+                            <td><input type="radio" name="respuesta3" id="num9"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">4-¿Que lenguaje da estilo a la pagina?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta4" id="num10"> HTML</td>
+                            <td><input type="radio" name="respuesta4" id="num11"> JS</td>
+                            <td><input type="radio" name="respuesta4" id="num12"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">5-¿Que lenguaje utiliza condicionales?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta5" id="num13"> HTML</td>
+                            <td><input type="radio" name="respuesta5" id="num14"> JS</td>
+                            <td><input type="radio" name="respuesta5" id="num15"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">6-¿Con que lenguaje puedes crear Variables?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta6" id="num16"> HTML</td>
+                            <td><input type="radio" name="respuesta6" id="num17"> JS</td>
+                            <td><input type="radio" name="respuesta6" id="num18"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">7-¿Con que lenguaje puedes crear Tablas?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta7" id="num19"> HTML</td>
+                            <td><input type="radio" name="respuesta7" id="num20"> JS</td>
+                            <td><input type="radio" name="respuesta7" id="num21"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">8-¿Con que lenguaje puedes colocar un "background-image"?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta8" id="num22"> HTML</td>
+                            <td><input type="radio" name="respuesta8" id="num23"> JS</td>
+                            <td><input type="radio" name="respuesta8" id="num24"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">9-¿Que lenguaje utiliza la etiqueta div?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta9" id="num25"> HTML</td>
+                            <td><input type="radio" name="respuesta9" id="num26"> JS</td>
+                            <td><input type="radio" name="respuesta9" id="num27"> CSS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">10-¿Que lenguaje utiliza la propiedad margin?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="respuesta10" id="num28"> HTML</td>
+                            <td><input type="radio" name="respuesta10" id="num29"> JS</td>
+                            <td><input type="radio" name="respuesta10" id="num30"> CSS</td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="resultado">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td colspan="3"><h3>PUNTUACIÓN Y EVALUACIÓN</h3></td>
+                        </tr>
+                        <tr>
+                            <td>Preguntas Correctas: </td>
+                            <td><div id="buenas">0</div></td>
+                        </tr>
+                        <tr>
+                            <td>Preguntas Incorrectas:</td>
+                            <td><div id="malas">0</div></td>
+                        </tr>
+                        <tr>
+                            <td>Preguntas Vacias:</td>
+                            <td><div id="vacias">0</div></td>
+                        </tr>
+                        <tr>
+                            <td>Puntuación :</td>
+                            <td> <div id="promedio">0% de Respuestas Buenas.</div></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" id="evaluar" value="Evaluar"></td>                        
+                            <td><input type="button" id="limpiar" value="Limpiar"></td>
+                        </tr>
+                    </table>
+                    <br><br><br><br><br>
+                    <img src="img5.png" alt="html,js,css">
+                    <h2>Advertencia: Solo se evaluara las respuestas que estan marcadas en un recuadro por pregunta, Gracias.</h2>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="javaScript.js"></script>
+</html>
